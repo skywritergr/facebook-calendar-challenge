@@ -1,0 +1,54 @@
+#dayDiv{
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#timeAndLine {
+	width: 65px;
+	margin-top: -9px;
+	float: left;
+}
+
+#events {
+	padding: 0 10px 0 10px;
+	background: #D1D1D1;
+	width: 600px;
+	float: left;
+	position: relative;
+	height: 720px;
+}
+
+.subtext {
+	margin: 0;
+	display: inline;
+	opacity: 0.5;
+}
+
+.time {
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 5px;
+	color: #676767;
+}
+
+.halfhour{
+	font-size: 10px;
+	text-align: right;
+}
+
+.event {
+	color: #89AFD2;
+	background-color: #FFF;
+	border-left: 3px solid #89AFD2;
+	position: absolute;
+}
+
+.event h2 {
+	color: #DADDE5;
+	font-size: 10px;
+}
